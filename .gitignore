@@ -1,0 +1,17 @@
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Python (no py development yet)
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# CMake misc
+CMakeFiles/
+cmake-build-*/
+
+# Logs / misc
+*.log

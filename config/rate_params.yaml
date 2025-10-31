@@ -1,0 +1,3 @@
+rate_talker:
+  ros__parameters:
+    publish_hz: 2.0
