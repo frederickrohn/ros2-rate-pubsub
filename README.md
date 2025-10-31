@@ -35,17 +35,19 @@ source install/setup.bash
 
 ## ▶️ Run the Nodes
 
-C++ Version
+```
 ros2 run rate_pubsub rate_listener
 ros2 run rate_pubsub rate_talker
+```
 
 ---
 
 ## ⚙️ Change Publish Rate at Runtime
 
 You can update the publishing frequency while the node is running:
-
+```
 ros2 param set /rate_talker publish_hz 2.0
+```
 
 ---
 
